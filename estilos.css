@@ -1,12 +1,11 @@
-body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin: 0;
-  background: #6f6f9b;
-  min-height: 100vh;
-  position: relative;
-  overflow: hidden;
-}
-
+/* body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: rgb(111, 111, 155);
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+} */
 .main-conteiner {
   display: flex;
   flex-wrap: nowrap;
