@@ -1,26 +1,35 @@
-
-
- body{
+  *,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ 
+  body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
-    background: rgb(81, 204, 167);
-    min-height: 100vh; 
+    background: rgb(209, 202, 202);
+    min-height: 50vh;  
     position: relative; 
-    overflow: hidden; 
+    overflow-x: hidden;
+    
+    }  
+
+ 
 
 
-    @media (max-width: 799px){
-        background-color: red;
-      
 
-    }
-}  
+
+
+
+ 
 
 
 .main-conteiner{
    
     display: flex;
     flex-wrap: nowrap;
+
 
  
 
@@ -31,7 +40,7 @@
         flex-shrink: 0;
         align-items: center;
         justify-content: space-around;
-       /*  background-color: brown; */
+        background-color: brown;
         background-size: cover;
         background-position: center center;
 
@@ -39,7 +48,7 @@
 
 
         h1{
-            color:burlywood;
+            color:rgb(12, 11, 10);
 
         }
     }
@@ -54,5 +63,5 @@
 
     }
 
-    
-}
+     
+}  

@@ -1,16 +1,15 @@
+*, *:after, *:before {
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
-  background: #51cca7;
-  min-height: 100vh;
+  background: #d1caca;
+  min-height: 50vh;
   position: relative;
-  overflow: hidden;
-}
-
-@media (max-width: 799px) {
-  body {
-    background-color: red;
-  }
+  overflow-x: hidden;
 }
 
 .main-conteiner {
@@ -26,13 +25,13 @@ body {
   flex-shrink: 0;
   align-items: center;
   justify-content: space-around;
-  /*  background-color: brown; */
+  background-color: brown;
   background-size: cover;
   background-position: center center;
 }
 
 .main-conteiner .seccion h1 {
-  color: burlywood;
+  color: #0c0b0a;
 }
 
 @media (max-width: 799px) {
