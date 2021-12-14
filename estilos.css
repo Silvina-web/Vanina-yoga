@@ -6,8 +6,8 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
-  background: #d1caca;
-  min-height: 50vh;
+  background: #fbfbfb;
+  min-height: 100vh;
   position: relative;
   overflow-x: hidden;
 }
@@ -15,7 +15,7 @@ body {
 .main-conteiner {
   display: flex;
   flex-wrap: nowrap;
-  /* En la version celu se hace columna */
+  /* En la version celu se hace columna-Estoy ubicado dentro de main conteiner*/
 }
 
 .main-conteiner .seccion {
@@ -25,13 +25,46 @@ body {
   flex-shrink: 0;
   align-items: center;
   justify-content: space-around;
-  background-color: brown;
-  background-size: cover;
-  background-position: center center;
+  /*  background-color: brown;
+        background-size: cover;
+        background-position: center center; */
 }
 
 .main-conteiner .seccion h1 {
   color: #0c0b0a;
+}
+
+.main-conteiner .seccion1 {
+  background-color: #4c23be;
+}
+
+.main-conteiner .seccion2 {
+  display: inline;
+  text-align: center;
+}
+
+.main-conteiner .seccion2 h2 {
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif0;
+}
+
+.main-conteiner .seccion2 .textos {
+  margin-top: 8rem;
+}
+
+.main-conteiner .seccion2 .textos p {
+  padding: 1rem;
+  width: 70vw;
+  margin: auto;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.main-conteiner .seccion2 .glass {
+  background-color: rgba(189, 184, 184, 0.746);
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
 }
 
 @media (max-width: 799px) {

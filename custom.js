@@ -14,6 +14,9 @@ ScrollTrigger.matchMedia({
   .to(".main-conteiner",5,{x:-window.innerWidth*3})
   .from(".seccion4 h1",5,{opacity:0,scale:3})
 
+  .to(".main-conteiner",5,{x:-window.innerWidth*4})
+  .from(".seccion5 h1",5,{opacity:0,scale:3})
+
  
 
  

@@ -8,54 +8,79 @@
   body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
-    background: rgb(209, 202, 202);
-    min-height: 50vh;  
+    background: rgb(251, 251, 251);
+    min-height: 100vh;  
     position: relative; 
     overflow-x: hidden;
     
     }  
 
  
-
-
-
-
-
-
- 
-
-
 .main-conteiner{
    
     display: flex;
     flex-wrap: nowrap;
 
 
- 
-
-    .seccion{
+ .seccion{
         width: 100vw;
         height: 100vh; 
         display: flex;
         flex-shrink: 0;
         align-items: center;
         justify-content: space-around;
-        background-color: brown;
+       /*  background-color: brown;
         background-size: cover;
-        background-position: center center;
-
-
-
-
-        h1{
+        background-position: center center; */
+h1{
             color:rgb(12, 11, 10);
 
         }
     }
 
+    .seccion1{
+        
+        background-color: rgb(76, 35, 190);
+        
+}
 
 
-/* En la version celu se hace columna */
+
+.seccion2{
+    display: inline;
+    text-align: center;
+    h2{ padding: 2rem;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif0;
+        
+    }
+    .textos{
+        margin-top: 8rem;
+    p{
+        padding: 1rem;
+        width: 70vw;
+        margin: auto;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+}
+
+    .glass{
+        background-color: rgba(189, 184, 184, 0.746);
+        width: 100vw;
+        height: 100vh;
+        padding:1rem;
+        
+    } 
+    
+    
+    
+
+
+}
+
+
+
+/* En la version celu se hace columna-Estoy ubicado dentro de main conteiner*/
     @media (max-width: 799px){
         display: flex;
         flex-wrap: wrap;
