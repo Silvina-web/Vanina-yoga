@@ -67,6 +67,39 @@ body {
   padding: 1rem;
 }
 
+.main-conteiner .seccion3 {
+  display: inline;
+  text-align: center;
+}
+
+.main-conteiner .seccion3 h2 {
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif0;
+}
+
+.main-conteiner .seccion3 .textos {
+  margin-top: 8rem;
+}
+
+.main-conteiner .seccion3 .textos p {
+  padding: 1rem;
+  width: 70vw;
+  margin: auto;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.main-conteiner .seccion3 .glass {
+  background-color: rgba(189, 184, 184, 0.746);
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.main-conteiner .seccion4 h1 {
+  margin-top: -20rem;
+}
+
 @media (max-width: 799px) {
   .main-conteiner {
     display: flex;
