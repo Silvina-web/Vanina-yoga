@@ -12,7 +12,7 @@ ScrollTrigger.matchMedia({
   .from(".seccion3 h1",5,{opacity:0,scale:5})
 
   .to(".main-conteiner",5,{x:-window.innerWidth*3})
-  .from(".seccion4 h1",5,{opacity:0,scale:3})
+  .from(".seccion4 h1",2,{opacity:0,scale:3})
 
   .to(".main-conteiner",5,{x:-window.innerWidth*4})
   .from(".seccion5 h1",5,{opacity:0,scale:3})
