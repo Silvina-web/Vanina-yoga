@@ -165,7 +165,9 @@ body {
     width: 95vw;
   }
   .main-conteiner .seccion4 .border {
-    width: 95vw;
+    width: 92vw;
+    height: 90vh;
+    margin: auto;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
