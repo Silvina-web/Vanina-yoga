@@ -76,10 +76,6 @@ body {
   text-align: center;
 }
 
-.main-conteiner .seccion3 h2 {
-  padding: 2rem;
-}
-
 .main-conteiner .seccion3 .textos {
   margin-top: 8rem;
 }
@@ -99,8 +95,59 @@ body {
   padding: 1rem;
 }
 
-.main-conteiner .seccion4 h1 {
-  margin-top: -20rem;
+.main-conteiner .seccion4 {
+  display: inline;
+  text-align: center;
+}
+
+.main-conteiner .seccion4 .border {
+  width: 95vw;
+  height: 90vh;
+  border: 2px solid #5300c0;
+  margin-top: 1.5rem;
+  margin-left: 2.8rem;
+}
+
+.main-conteiner .seccion4 .border .encontrame {
+  margin-top: 4rem;
+}
+
+.main-conteiner .seccion4 .border .lista {
+  margin-top: 7rem;
+}
+
+.main-conteiner .seccion4 .border .lista ul {
+  list-style: none;
+}
+
+.main-conteiner .seccion4 .border .lista ul li {
+  padding: 0.5rem;
+}
+
+.main-conteiner .seccion4 .border .conteiner-contacto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 60vw;
+  align-items: center;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.main-conteiner .seccion4 .border .vecinas {
+  width: 15vw;
+  margin-top: 7rem;
+  margin-right: 19rem;
+}
+
+.main-conteiner .seccion4 .border .vecinas a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-conteiner .seccion4 .border .vecinas a .texto-vecinas {
+  font-size: 10px;
 }
 
 @media (max-width: 799px) {
@@ -115,6 +162,9 @@ body {
     margin-top: -1rem;
   }
   .main-conteiner .seccion2 .textos p {
+    width: 95vw;
+  }
+  .main-conteiner .seccion4 .border {
     width: 95vw;
   }
 }
