@@ -39,7 +39,21 @@ body {
 }
 
 .main-conteiner .seccion1 {
-  background-color: #5300c0;
+  /* background-color: rgb(83, 0, 192); */
+  background-color: white;
+}
+
+.main-conteiner .seccion1 .border {
+  width: 95vw;
+  height: 90vh;
+  border: 2px solid #5300c0;
+  /*  margin-top: 1.5rem;
+            margin-left: 2.8rem; */
+}
+
+.main-conteiner .seccion1 .border .img-home {
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px grey;
 }
 
 .main-conteiner .seccion2 {
