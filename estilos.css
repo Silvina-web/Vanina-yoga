@@ -52,8 +52,12 @@ body {
 }
 
 .main-conteiner .seccion1 .border .img-home {
-  border-radius: 2px;
+  border-radius: 3px;
   box-shadow: 2px 2px 5px grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12vh;
 }
 
 .main-conteiner .seccion2 {
@@ -143,16 +147,15 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 60vw;
+  width: 50vw;
   align-items: center;
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .main-conteiner .seccion4 .border .vecinas {
   width: 15vw;
-  margin-top: 7rem;
-  margin-right: 19rem;
+  margin-top: 14.5rem;
 }
 
 .main-conteiner .seccion4 .border .vecinas a {
