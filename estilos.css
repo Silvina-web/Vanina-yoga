@@ -187,7 +187,7 @@ body {
 }
 
 .main-conteiner .gallery-container .gallery__items:nth-child(7) {
-  grid-column-end: span 3;
+  grid-column-end: span 2;
 }
 
 .main-conteiner .gallery-container .gallery__items:nth-child(6) {
