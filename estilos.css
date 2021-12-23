@@ -76,11 +76,12 @@ body {
 
 .main-conteiner .seccion2 .textos p {
   color: black;
-  padding: 1rem;
+  padding: 2rem;
   width: 70vw;
   margin: auto;
   letter-spacing: 1px;
   word-spacing: 1px;
+  line-height: 2em;
 }
 
 .main-conteiner .seccion2 .glass {
@@ -100,11 +101,13 @@ body {
 }
 
 .main-conteiner .seccion3 .textos p {
+  color: black;
   padding: 1rem;
   width: 70vw;
   margin: auto;
   letter-spacing: 1px;
   word-spacing: 1px;
+  line-height: 2em;
 }
 
 .main-conteiner .seccion3 .glass {
@@ -195,6 +198,10 @@ body {
 }
 
 .main-conteiner .gallery-container .gallery__items:nth-child(1) {
+  grid-row-end: span 2;
+}
+
+.main-conteiner .gallery-container .gallery__items:nth-child(10) {
   grid-row-end: span 2;
 }
 
