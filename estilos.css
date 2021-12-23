@@ -237,6 +237,20 @@ body {
   }
   .main-conteiner .seccion2 .textos p {
     width: 95vw;
+    line-height: 1.5em;
+  }
+  .main-conteiner .seccion3 {
+    margin-top: 1rem;
+  }
+  .main-conteiner .seccion3 .textos {
+    margin-top: -1rem;
+  }
+  .main-conteiner .seccion3 .textos p {
+    line-height: 1.5em;
+    width: 95vw;
+  }
+  .main-conteiner .seccion4 {
+    margin-top: 1rem;
   }
   .main-conteiner .seccion4 .border {
     width: 92vw;

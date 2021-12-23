@@ -241,15 +241,27 @@ h1{         font-family: 'Quicksand', sans-serif;
             }
         }
         .seccion2{
+        
             .textos{
                 margin-top:-1rem;
                 p{
                     width: 95vw;
+                    line-height: 1.5em;
                 }
             }
         }
-
+.seccion3{
+    margin-top: 1rem;
+    .textos{
+        margin-top: -1rem;
+        p{
+            line-height: 1.5em;
+            width: 95vw;
+        }
+    }
+}
         .seccion4{
+            margin-top: 1rem;
             .border{
                 width: 92vw;
                 height: 90vh;
