@@ -29,9 +29,8 @@ body {
   flex-shrink: 0;
   align-items: center;
   justify-content: space-around;
-  /*  background-color: brown;
-        background-size: cover;
-        background-position: center center; */
+  background-size: cover;
+  background-position: center center;
 }
 
 .main-conteiner .seccion h1 {
