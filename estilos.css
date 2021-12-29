@@ -177,9 +177,6 @@ body {
   grid-auto-rows: 150px;
   padding: 15px;
   grid-gap: 10px;
-  /*  .gallery__items:nth-child(3){
-             grid-column-start: span 2;
-         } */
 }
 
 .main-conteiner .gallery-container .vani__img {
@@ -229,8 +226,15 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
-  .main-conteiner .seccion1 img {
+  .main-conteiner .seccion1 .border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-conteiner .seccion1 .border .img-home {
     width: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .main-conteiner .seccion2 .textos {
     margin-top: -1rem;

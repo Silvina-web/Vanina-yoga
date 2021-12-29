@@ -197,9 +197,7 @@ h1{         font-family: 'Quicksand', sans-serif;
              height: 100%;
               object-fit: cover; 
          }
-        /*  .gallery__items:nth-child(3){
-             grid-column-start: span 2;
-         } */
+       
          .gallery__items:nth-child(7){
              grid-column-end: span 2;
          }
@@ -236,8 +234,22 @@ h1{         font-family: 'Quicksand', sans-serif;
         display: flex;
         flex-wrap: wrap;
         .seccion1{
-            img{
+
+           .border{
+               display: flex;
+               justify-content: center;
+               align-items: center; 
+               
+               
+
+            .img-home{
+                
                 width: 300px;
+                margin-top:auto;
+                margin-bottom: auto;
+               
+              
+                }
             }
         }
         .seccion2{
