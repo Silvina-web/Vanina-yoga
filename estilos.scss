@@ -166,7 +166,7 @@ h1{         font-family: 'Quicksand', sans-serif;
         .vecinas{
             
             width: 15vw;
-            margin-top: 14.5rem;
+            margin-top: 15rem;
             
             a{
                 text-decoration: none;
@@ -278,6 +278,10 @@ h1{         font-family: 'Quicksand', sans-serif;
                 width: 92vw;
                 height: 90vh;
                 margin: auto;
+
+                .vecinas{
+                    margin-top: 5rem;
+                }
             }
         }
       
