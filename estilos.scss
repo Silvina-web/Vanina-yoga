@@ -276,12 +276,15 @@ h1{
         .seccion4{
             margin-top: 1rem;
             .border{
+                position: relative;
                 width: 92vw;
                 height: 90vh;
                 margin: auto;
 
                 .vecinas{
-                    margin-top: 5rem;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
                 }
             }
         }
