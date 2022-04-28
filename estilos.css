@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   margin: 0;
   background: #fbfbfb;
   min-height: 100vh;
@@ -34,8 +34,9 @@ body {
 }
 
 .main-conteiner .seccion h1 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Times New Roman", Times, serif;
   color: #0c0b0a;
+  font-size: 1.5rem;
 }
 
 .main-conteiner .seccion1 {
@@ -52,7 +53,7 @@ body {
 }
 
 .main-conteiner .seccion1 .border .img-home {
-  border-radius: 3px;
+  border-radius: 500px;
   box-shadow: 2px 2px 5px grey;
   display: block;
   margin-left: auto;
@@ -81,6 +82,7 @@ body {
   letter-spacing: 1px;
   word-spacing: 1px;
   line-height: 2em;
+  font-size: 1.3rem;
 }
 
 .main-conteiner .seccion2 .glass {
@@ -107,6 +109,7 @@ body {
   letter-spacing: 1px;
   word-spacing: 1px;
   line-height: 2em;
+  font-size: 1.3rem;
 }
 
 .main-conteiner .seccion3 .glass {
@@ -119,6 +122,7 @@ body {
 .main-conteiner .seccion4 {
   display: inline;
   text-align: center;
+  position: relative;
 }
 
 .main-conteiner .seccion4 .border {
@@ -127,22 +131,20 @@ body {
   border: 2px solid #5300c0;
   margin-top: 1.5rem;
   margin-left: 2.8rem;
+  /*   .lista{
+             margin-top: 7rem;
+             ul{
+                 list-style: none;
+             li{
+                 padding: 0.5rem;
+                 
+             }
+         }
+        } */
 }
 
 .main-conteiner .seccion4 .border .encontrame {
   margin-top: 4rem;
-}
-
-.main-conteiner .seccion4 .border .lista {
-  margin-top: 7rem;
-}
-
-.main-conteiner .seccion4 .border .lista ul {
-  list-style: none;
-}
-
-.main-conteiner .seccion4 .border .lista ul li {
-  padding: 0.5rem;
 }
 
 .main-conteiner .seccion4 .border .conteiner-contacto {
@@ -153,24 +155,14 @@ body {
   width: 50vw;
   align-items: center;
   margin: auto;
-  margin-top: 7rem;
+  margin-top: 18rem;
 }
 
-.main-conteiner .seccion4 .border .vecinas {
-  width: 15vw;
-  margin-top: 15rem;
+.main-conteiner .seccion5 {
+  position: relative;
 }
 
-.main-conteiner .seccion4 .border .vecinas a {
-  text-decoration: none;
-  color: black;
-}
-
-.main-conteiner .seccion4 .border .vecinas a .texto-vecinas {
-  font-size: 10px;
-}
-
-.main-conteiner .gallery-container {
+.main-conteiner .seccion5 .gallery-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-auto-rows: 150px;
@@ -178,46 +170,64 @@ body {
   grid-gap: 10px;
 }
 
-.main-conteiner .gallery-container .vani__img {
+.main-conteiner .seccion5 .gallery-container .vani__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.main-conteiner .gallery-container .gallery__items:nth-child(7) {
+.main-conteiner .seccion5 .gallery-container .gallery__items:nth-child(7) {
   grid-column-end: span 2;
 }
 
-.main-conteiner .gallery-container .gallery__items:nth-child(6) {
+.main-conteiner .seccion5 .gallery-container .gallery__items:nth-child(6) {
   grid-column-end: span 2;
 }
 
-.main-conteiner .gallery-container .gallery__items:nth-child(1) {
+.main-conteiner .seccion5 .gallery-container .gallery__items:nth-child(1) {
   grid-row-end: span 2;
 }
 
-.main-conteiner .gallery-container .gallery__items:nth-child(10) {
+.main-conteiner .seccion5 .gallery-container .gallery__items:nth-child(10) {
   grid-row-end: span 2;
 }
 
-.main-conteiner .gallery-container .gallery__items:nth-child(8) {
+.main-conteiner .seccion5 .gallery-container .gallery__items:nth-child(8) {
   grid-row-end: span 2;
 }
 
-.main-conteiner .gallery-container .gallery__items:nth-child(9) {
+.main-conteiner .seccion5 .gallery-container .gallery__items:nth-child(9) {
   grid-row-end: span 2;
 }
 
-.main-conteiner .gallery-container .gallery__items:nth-child(4) {
+.main-conteiner .seccion5 .gallery-container .gallery__items:nth-child(4) {
   grid-row-end: span 2;
 }
 
-.main-conteiner .gallery-container .gallery__items:nth-child(5) {
+.main-conteiner .seccion5 .gallery-container .gallery__items:nth-child(5) {
   grid-row-end: span 2;
 }
 
-.main-conteiner .gallery-container .gallery__items:nth-child(7) {
+.main-conteiner .seccion5 .gallery-container .gallery__items:nth-child(7) {
   grid-row-end: span 2;
+}
+
+.main-conteiner .seccion5 .vecinas {
+  width: 15vw;
+  margin-top: 15rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.main-conteiner .seccion5 .vecinas a {
+  text-decoration: none;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-conteiner .seccion5 .vecinas a .texto-vecinas {
+  font-size: 10px;
 }
 
 @media (max-width: 799px) {
