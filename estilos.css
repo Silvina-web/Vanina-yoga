@@ -246,21 +246,23 @@ body {
     margin-bottom: auto;
   }
   .main-conteiner .seccion2 .textos {
-    margin-top: -1rem;
+    margin-top: 5rem;
   }
   .main-conteiner .seccion2 .textos p {
-    width: 95vw;
-    line-height: 1.5em;
+    width: 97vw;
+    line-height: 1.8em;
+    font-size: 15px;
   }
   .main-conteiner .seccion3 {
     margin-top: 1rem;
   }
   .main-conteiner .seccion3 .textos {
-    margin-top: -1rem;
+    margin-top: 5rem;
   }
   .main-conteiner .seccion3 .textos p {
-    line-height: 1.5em;
-    width: 95vw;
+    line-height: 1.8em;
+    width: 97vw;
+    font-size: 15px;
   }
   .main-conteiner .seccion4 {
     margin-top: 1rem;
@@ -271,10 +273,12 @@ body {
     height: 90vh;
     margin: auto;
   }
-  .main-conteiner .seccion4 .border .vecinas {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+  .main-conteiner .seccion4 .border .contacto {
+    margin-top: -6rem;
+  }
+  .main-conteiner .seccion4 .border .contacto .conteiner-contacto {
+    flex-direction: column;
+    gap: 3rem;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

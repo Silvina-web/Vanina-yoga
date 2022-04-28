@@ -64,10 +64,6 @@ h1{
                 margin-top: 12vh;
                 
             }
-
-
-
-        
 }
 }
 
@@ -270,35 +266,48 @@ h1{
         .seccion2{
         
             .textos{
-                margin-top:-1rem;
+                margin-top:5rem;
                 p{
-                    width: 95vw;
-                    line-height: 1.5em;
+                    width: 97vw;
+                    line-height: 1.8em;
+                    font-size: 15px;
                 }
             }
         }
 .seccion3{
     margin-top: 1rem;
     .textos{
-        margin-top: -1rem;
+        margin-top: 5rem;
         p{
-            line-height: 1.5em;
-            width: 95vw;
+            line-height: 1.8em;
+            width: 97vw;
+            font-size: 15px;
         }
     }
 }
         .seccion4{
+          
             margin-top: 1rem;
             .border{
+               
                 position: relative;
                 width: 92vw;
                 height: 90vh;
                 margin: auto;
 
-                .vecinas{
-                    position: absolute;
-                    left: 0;
-                    bottom: 0;
+             
+
+                .contacto{
+                  
+                    margin-top: -6rem;
+                     .conteiner-contacto{
+                        flex-direction: column;
+                        gap: 3rem;
+                        
+                      
+                       
+                       
+                    }
                 }
             }
         }
