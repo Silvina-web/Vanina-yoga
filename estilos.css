@@ -335,10 +335,9 @@ body {
     margin-top: -8rem;
   }
   .main-conteiner .seccion4 .border .contacto .conteiner-contacto {
-    height: 50vh;
+    height: 60vh;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 5rem;
+    justify-content: space-evenly;
   }
   .main-conteiner .seccion5 a {
     color: #5300c0;
@@ -385,21 +384,19 @@ body {
     width: 95vw;
     font-size: 3.1vw;
   }
-  .main-conteiner .seccion3 .textos .lista {
-    margin-top: 2rem;
-  }
   .main-conteiner .seccion3 .textos .lista p {
     font-size: 4vw;
-    margin-top: -4rem;
+    margin-top: -3rem;
   }
   .main-conteiner .seccion3 .textos .lista ul {
     text-align: center;
+    margin-top: -1rem;
   }
   .main-conteiner .seccion3 .textos .lista ul li {
     width: 75vw;
     font-size: 15px;
     padding: 0.2rem;
-    margin-right: 250px;
+    margin-right: 15px;
   }
   .main-conteiner .seccion4 {
     /* Encontrame */
@@ -412,12 +409,13 @@ body {
     margin: auto;
   }
   .main-conteiner .seccion4 .border .contacto {
-    margin-top: -15rem;
+    margin-top: -16rem;
   }
   .main-conteiner .seccion4 .border .contacto .conteiner-contacto {
-    height: 65vh;
+    outline: 2px solid red;
+    height: 66vh;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .main-conteiner .seccion4 .border .contacto .conteiner-contacto img {
     width: 50px;
@@ -425,7 +423,7 @@ body {
   }
   .main-conteiner .seccion5 {
     height: 110vh;
-    margin-top: -5rem;
+    margin-top: -4rem;
   }
   .main-conteiner .seccion5 .vecinas {
     width: 100vw;
