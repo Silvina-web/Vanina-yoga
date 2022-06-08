@@ -67,20 +67,20 @@ h1{
 }
 }
 
-/* seccion2-----------------seccion2----------- */
+/* seccion2-----quien soy------------seccion2----------- */
 
 .seccion2{
     display: inline;
     text-align: center;
-    h1{
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    h1{ font-family: 'Kurale', serif;
         font-weight: 1;
         color:rgb(12, 11, 10);
         font-size: 1.5rem;
     }
     .textos{
         margin-top: 8rem;
-             p{  font-family: 'Lobster Two', cursive;
+             p{ 
+                font-family: 'Kurale', serif;
                 color: rgb(0, 0, 0);
                 padding: 2rem;
                 width: 70vw;
@@ -99,45 +99,50 @@ h1{
         padding:1rem;
         
     } 
+/* Media seccion 2 */
+  
     
- }
+        
+}
      /* seccion3--Mi propuesta-------------seccion3-------------------------- */
      .seccion3{
         display: inline;
         text-align: center;
         h1{
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-weight: 1;
-            color:rgb(12, 11, 10);
-            font-size: 1.5rem;
+           font-family: 'Kurale', serif; 
+           font-weight: 1;
+           color:rgb(12, 11, 10);
+           font-size: 1.5rem;
         }
         .textos{
             margin-top: 8rem;
-          
-        p{ 
-            font-family: 'Lobster Two', cursive;
-            color: black;
-            padding: 1rem;
-            width: 70vw;
-            margin: auto;
-            letter-spacing: 1px;
-            word-spacing: 1px;
-         font-size: 1.3rem;
+                p{ 
+                  font-family: 'Kurale', serif;
+                  color: black;
+                  padding: 1rem;
+                  width: 70vw;
+                  margin: auto;
+                  letter-spacing: 1px;
+                  word-spacing: 1px;
+                  font-size: 1.3rem;
         }
 
         .lista{
-            margin-top: 2rem;
+            margin-top: 1rem;
+            p{
+                font-size: 1.8vw;
+            }
             ul{
                 list-style: none;
                 li{
-                    font-family: 'Lobster Two', cursive;
+                    font-family: 'Kurale', serif;
                     color: rgb(0, 0, 0);
-                    padding: 1rem;
+                    padding: 0.5rem;
                     width: 70vw;
                     margin: auto;
                     letter-spacing: 1px;
                     word-spacing: 1px;
-                    line-height: 1em;
+                   /*  line-height: 1em; */
                     font-size: 1.3rem;
                 }
             }
@@ -159,7 +164,7 @@ h1{
             text-align: center;
             position: relative;
             h1{
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-family: 'Kurale', serif;
                 font-weight: 1;
                 color:rgb(12, 11, 10);
                 font-size: 1.5rem;
@@ -260,7 +265,7 @@ h1{
         
         a{
             text-decoration: none;
-            color: black;
+            color:rgb(83, 0, 192); ;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             .texto-vecinas{
                 font-size: 10px;
@@ -278,75 +283,196 @@ h1{
         display: flex;
         flex-wrap: wrap;
         .seccion1{
-
-           .border{
+                 .border{
                display: flex;
                justify-content: center;
                align-items: center; 
-               
-               
-
-            .img-home{
-                
+                   .img-home{
                 width: 300px;
                 margin-top:auto;
                 margin-bottom: auto;
-               
-              
                 }
             }
         }
-        .seccion2{
-        
+        .seccion2{ /* quien soy */
+             .glass{
+                 header{
+                     margin-top: 5rem;
+                 }
+             }
             .textos{
-                margin-top:5rem;
+                margin-top:6rem;
                 p{
                     width: 97vw;
                     line-height: 1.8em;
-                    font-size: 15px;
+                    font-size: 3vw;
                 }
             }
         }
-.seccion3{
+
+.seccion3{ /* Mi propuesta */
     margin-top: 1rem;
+    .glass{
+        header{
+            margin-top: 5rem;
+        }
+    }
     .textos{
         margin-top: 5rem;
         p{
             line-height: 1.8em;
             width: 97vw;
-            font-size: 15px;
+            font-size: 3vw;
+        }
+        .lista{
+            p{
+                font-size: 3.8vw;
+               
+            }
         }
     }
 }
-        .seccion4{
-          
-            margin-top: 1rem;
+        .seccion4{ /* Encontrame */
+             margin-top: 1rem;
             .border{
-               
                 position: relative;
                 width: 92vw;
                 height: 90vh;
                 margin: auto;
-
-             
-
-                .contacto{
-                  
-                    margin-top: -6rem;
+            .contacto{
+                   margin-top: -8rem;
                      .conteiner-contacto{
-                        flex-direction: column;
-                        gap: 3rem;
+                         height: 50vh;
+                         flex-direction: column;
+                         justify-content: space-between;
+                         gap: 5rem;
+                        }
+                }
+            }
+        }
+
+        .seccion5{
+            a{
+                color: rgb(83, 0, 192);
+            }
+        }
+  }
+ 
+  @media (max-width: 420px){
+    .seccion1{
+        .border{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            .img-home{
+                width: 300px;
+                margin-top:auto;
+                margin-bottom: auto;
+                }
+            }
+        }
+        .seccion2{ /* quien soy */
+             .glass{
+                 header{
+                     margin-top: 3rem;
+                 }
+             }
+            .textos{
+                margin-top:4rem;
+                   p{
+                    width: 95vw;
+                    line-height: 2em; 
+                    font-size: 3.1vw;
+                }
+            }
+        }
+
+        .seccion3{ /* Mi propuesta */
+            margin-top: 1rem;
+            .glass{
+                header{
+                    margin-top: 3rem;
+                }
+            }
+            .textos{
+                margin-top: 1rem;
+                p{
+                    line-height: 2em;
+                    width: 95vw;
+                    font-size: 3.1vw;
+                }
+                .lista{
+                   
+                    margin-top: 2rem;
+                        p{
+                        font-size: 4vw;
+                        margin-top: -4rem;
+                        }
+                        ul{
+                          
+                            text-align: center;
+                           
+                             li{
+                                
+                                 width: 75vw;
+                                 font-size: 15px;
+                                 padding: 0.2rem; 
+                                 margin-right: 250px;
+                             }
+                        }
+                }
+            }
+        }
+
+        .seccion4{ /* Encontrame */
+            margin-top: 1rem;
+            .border{
+                position: relative;
+                width: 92vw;
+                height: 90vh;
+                margin: auto;
+            .contacto{
+                   margin-top: -15rem;
+                     .conteiner-contacto{
+                         height: 65vh;
+                         flex-direction: column;
+                         justify-content: space-around;
+                         
+
+                         img{
+                                width: 50px;
+                                height: 50px;
+                         }
                         
-                      
-                       
-                       
+                        }
+                }
+            }
+        }
+
+        .seccion5{
+           height: 110vh;
+           margin-top: -5rem;
+           
+            .vecinas{
+                width: 100vw;
+                margin-top: -10rem;
+                position: absolute;
+                bottom: 0;
+                left: 12px;
+               
+                
+                a{
+                    text-decoration: none;
+                    color: rgb(83, 0, 192);
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    .texto-vecinas{
+                        font-size: 10px;
                     }
                 }
             }
         }
       
-
+  }
+ 
     }
-
      
-}  

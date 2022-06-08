@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   /*    seccion 1-----seccion 1-------------- */
-  /* seccion2-----------------seccion2----------- */
+  /* seccion2-----quien soy------------seccion2----------- */
   /* seccion3--Mi propuesta-------------seccion3-------------------------- */
   /*    seccion 4 --------- Encontrame */
   /* seccion5 */
@@ -65,10 +65,11 @@ body {
 .main-conteiner .seccion2 {
   display: inline;
   text-align: center;
+  /* Media seccion 2 */
 }
 
 .main-conteiner .seccion2 h1 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Kurale', serif;
   font-weight: 1;
   color: #0c0b0a;
   font-size: 1.5rem;
@@ -79,7 +80,7 @@ body {
 }
 
 .main-conteiner .seccion2 .textos p {
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Kurale', serif;
   color: black;
   padding: 2rem;
   width: 70vw;
@@ -103,7 +104,7 @@ body {
 }
 
 .main-conteiner .seccion3 h1 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Kurale', serif;
   font-weight: 1;
   color: #0c0b0a;
   font-size: 1.5rem;
@@ -114,7 +115,7 @@ body {
 }
 
 .main-conteiner .seccion3 .textos p {
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Kurale', serif;
   color: black;
   padding: 1rem;
   width: 70vw;
@@ -125,7 +126,11 @@ body {
 }
 
 .main-conteiner .seccion3 .textos .lista {
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+
+.main-conteiner .seccion3 .textos .lista p {
+  font-size: 1.8vw;
 }
 
 .main-conteiner .seccion3 .textos .lista ul {
@@ -133,14 +138,14 @@ body {
 }
 
 .main-conteiner .seccion3 .textos .lista ul li {
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Kurale', serif;
   color: black;
-  padding: 1rem;
+  padding: 0.5rem;
   width: 70vw;
   margin: auto;
   letter-spacing: 1px;
   word-spacing: 1px;
-  line-height: 1em;
+  /*  line-height: 1em; */
   font-size: 1.3rem;
 }
 
@@ -158,7 +163,7 @@ body {
 }
 
 .main-conteiner .seccion4 h1 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Kurale', serif;
   font-weight: 1;
   color: #0c0b0a;
   font-size: 1.5rem;
@@ -261,7 +266,7 @@ body {
 
 .main-conteiner .seccion5 .vecinas a {
   text-decoration: none;
-  color: black;
+  color: #5300c0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -284,16 +289,26 @@ body {
     margin-top: auto;
     margin-bottom: auto;
   }
-  .main-conteiner .seccion2 .textos {
+  .main-conteiner .seccion2 {
+    /* quien soy */
+  }
+  .main-conteiner .seccion2 .glass header {
     margin-top: 5rem;
+  }
+  .main-conteiner .seccion2 .textos {
+    margin-top: 6rem;
   }
   .main-conteiner .seccion2 .textos p {
     width: 97vw;
     line-height: 1.8em;
-    font-size: 15px;
+    font-size: 3vw;
   }
   .main-conteiner .seccion3 {
+    /* Mi propuesta */
     margin-top: 1rem;
+  }
+  .main-conteiner .seccion3 .glass header {
+    margin-top: 5rem;
   }
   .main-conteiner .seccion3 .textos {
     margin-top: 5rem;
@@ -301,9 +316,13 @@ body {
   .main-conteiner .seccion3 .textos p {
     line-height: 1.8em;
     width: 97vw;
-    font-size: 15px;
+    font-size: 3vw;
+  }
+  .main-conteiner .seccion3 .textos .lista p {
+    font-size: 3.8vw;
   }
   .main-conteiner .seccion4 {
+    /* Encontrame */
     margin-top: 1rem;
   }
   .main-conteiner .seccion4 .border {
@@ -313,11 +332,115 @@ body {
     margin: auto;
   }
   .main-conteiner .seccion4 .border .contacto {
-    margin-top: -6rem;
+    margin-top: -8rem;
   }
   .main-conteiner .seccion4 .border .contacto .conteiner-contacto {
+    height: 50vh;
     flex-direction: column;
-    gap: 3rem;
+    justify-content: space-between;
+    gap: 5rem;
+  }
+  .main-conteiner .seccion5 a {
+    color: #5300c0;
+  }
+}
+
+@media (max-width: 420px) {
+  .main-conteiner .seccion1 .border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-conteiner .seccion1 .border .img-home {
+    width: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .main-conteiner .seccion2 {
+    /* quien soy */
+  }
+  .main-conteiner .seccion2 .glass header {
+    margin-top: 3rem;
+  }
+  .main-conteiner .seccion2 .textos {
+    margin-top: 4rem;
+  }
+  .main-conteiner .seccion2 .textos p {
+    width: 95vw;
+    line-height: 2em;
+    font-size: 3.1vw;
+  }
+  .main-conteiner .seccion3 {
+    /* Mi propuesta */
+    margin-top: 1rem;
+  }
+  .main-conteiner .seccion3 .glass header {
+    margin-top: 3rem;
+  }
+  .main-conteiner .seccion3 .textos {
+    margin-top: 1rem;
+  }
+  .main-conteiner .seccion3 .textos p {
+    line-height: 2em;
+    width: 95vw;
+    font-size: 3.1vw;
+  }
+  .main-conteiner .seccion3 .textos .lista {
+    margin-top: 2rem;
+  }
+  .main-conteiner .seccion3 .textos .lista p {
+    font-size: 4vw;
+    margin-top: -4rem;
+  }
+  .main-conteiner .seccion3 .textos .lista ul {
+    text-align: center;
+  }
+  .main-conteiner .seccion3 .textos .lista ul li {
+    width: 75vw;
+    font-size: 15px;
+    padding: 0.2rem;
+    margin-right: 250px;
+  }
+  .main-conteiner .seccion4 {
+    /* Encontrame */
+    margin-top: 1rem;
+  }
+  .main-conteiner .seccion4 .border {
+    position: relative;
+    width: 92vw;
+    height: 90vh;
+    margin: auto;
+  }
+  .main-conteiner .seccion4 .border .contacto {
+    margin-top: -15rem;
+  }
+  .main-conteiner .seccion4 .border .contacto .conteiner-contacto {
+    height: 65vh;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .main-conteiner .seccion4 .border .contacto .conteiner-contacto img {
+    width: 50px;
+    height: 50px;
+  }
+  .main-conteiner .seccion5 {
+    height: 110vh;
+    margin-top: -5rem;
+  }
+  .main-conteiner .seccion5 .vecinas {
+    width: 100vw;
+    margin-top: -10rem;
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+  }
+  .main-conteiner .seccion5 .vecinas a {
+    text-decoration: none;
+    color: #5300c0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .main-conteiner .seccion5 .vecinas a .texto-vecinas {
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
