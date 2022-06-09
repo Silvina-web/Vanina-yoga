@@ -77,13 +77,15 @@ body {
 
 .main-conteiner .seccion2 .textos {
   margin-top: 8rem;
+  outline: 5px solid red;
 }
 
 .main-conteiner .seccion2 .textos p {
+  outline: 5px solid blue;
   font-family: 'Kurale', serif;
   color: black;
   padding: 2rem;
-  width: 70vw;
+  width: 82vw;
   margin: auto;
   letter-spacing: 1px;
   word-spacing: 1px;
@@ -126,21 +128,25 @@ body {
 }
 
 .main-conteiner .seccion3 .textos .lista {
-  margin-top: 1rem;
+  outline: 1px solid violet;
+  margin-top: 3rem;
 }
 
 .main-conteiner .seccion3 .textos .lista p {
+  outline: 1px solid green;
   font-size: 1.8vw;
 }
 
 .main-conteiner .seccion3 .textos .lista ul {
   list-style: none;
+  outline: 2px solid blue;
+  margin-top: -1.5rem;
 }
 
 .main-conteiner .seccion3 .textos .lista ul li {
   font-family: 'Kurale', serif;
   color: black;
-  padding: 0.5rem;
+  padding: 0.3rem;
   width: 70vw;
   margin: auto;
   letter-spacing: 1px;
@@ -200,6 +206,12 @@ body {
   align-items: center;
   margin: auto;
   margin-top: 18rem;
+}
+
+.main-conteiner .seccion4 .border .conteiner-contacto .logoVaniEncontrame {
+  border-radius: 35px;
+  width: 4rem;
+  height: 4rem;
 }
 
 .main-conteiner .seccion5 {

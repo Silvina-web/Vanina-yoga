@@ -79,11 +79,13 @@ h1{
     }
     .textos{
         margin-top: 8rem;
+        outline: 5px solid red;
              p{ 
+                 outline: 5px solid blue;
                 font-family: 'Kurale', serif;
                 color: rgb(0, 0, 0);
                 padding: 2rem;
-                width: 70vw;
+                width: 82vw;
                 margin: auto;
                 letter-spacing: 1px;
                 word-spacing: 1px;
@@ -128,16 +130,19 @@ h1{
         }
 
         .lista{
-            margin-top: 1rem;
-            p{
+            outline: 1px solid violet;
+            margin-top:3rem;
+            p{  outline: 1px solid green;
                 font-size: 1.8vw;
             }
             ul{
                 list-style: none;
+                outline: 2px solid blue;
+                margin-top: -1.5rem;
                 li{
                     font-family: 'Kurale', serif;
                     color: rgb(0, 0, 0);
-                    padding: 0.5rem;
+                    padding: 0.3rem;
                     width: 70vw;
                     margin: auto;
                     letter-spacing: 1px;
@@ -200,6 +205,13 @@ h1{
             margin: auto;
             margin-top: 18rem;
            
+
+            .logoVaniEncontrame{
+                border-radius: 35px;
+                width: 4rem;
+                height: 4rem;
+                
+            }
         
         }
       
