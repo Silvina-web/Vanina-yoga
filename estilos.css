@@ -77,11 +77,9 @@ body {
 
 .main-conteiner .seccion2 .textos {
   margin-top: 8rem;
-  outline: 5px solid red;
 }
 
 .main-conteiner .seccion2 .textos p {
-  outline: 5px solid blue;
   font-family: 'Kurale', serif;
   color: black;
   padding: 2rem;
@@ -128,18 +126,15 @@ body {
 }
 
 .main-conteiner .seccion3 .textos .lista {
-  outline: 1px solid violet;
   margin-top: 3rem;
 }
 
 .main-conteiner .seccion3 .textos .lista p {
-  outline: 1px solid green;
   font-size: 1.8vw;
 }
 
 .main-conteiner .seccion3 .textos .lista ul {
   list-style: none;
-  outline: 2px solid blue;
   margin-top: -1.5rem;
 }
 
