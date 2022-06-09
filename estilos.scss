@@ -194,8 +194,17 @@ h1{
              }
          }
         } */
+        .contacto{
+            .logoVaniEncontrame{
+                margin-bottom: -8rem;
+               border-radius: 35px;
+               width: 4rem;
+               height: 4rem;
+              
+            }
+        }
         .conteiner-contacto{
-            
+            outline: 2px solid red;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -206,12 +215,12 @@ h1{
             margin-top: 18rem;
            
 
-            .logoVaniEncontrame{
+           /*  .logoVaniEncontrame{
                 border-radius: 35px;
                 width: 4rem;
                 height: 4rem;
                 
-            }
+            } */
         
         }
       

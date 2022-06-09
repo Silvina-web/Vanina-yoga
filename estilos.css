@@ -192,7 +192,15 @@ body {
   margin-top: 4rem;
 }
 
+.main-conteiner .seccion4 .border .contacto .logoVaniEncontrame {
+  margin-bottom: -8rem;
+  border-radius: 35px;
+  width: 4rem;
+  height: 4rem;
+}
+
 .main-conteiner .seccion4 .border .conteiner-contacto {
+  outline: 2px solid red;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -201,12 +209,12 @@ body {
   align-items: center;
   margin: auto;
   margin-top: 18rem;
-}
-
-.main-conteiner .seccion4 .border .conteiner-contacto .logoVaniEncontrame {
-  border-radius: 35px;
-  width: 4rem;
-  height: 4rem;
+  /*  .logoVaniEncontrame{
+                border-radius: 35px;
+                width: 4rem;
+                height: 4rem;
+                
+            } */
 }
 
 .main-conteiner .seccion5 {
