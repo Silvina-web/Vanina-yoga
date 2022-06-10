@@ -440,7 +440,11 @@ body {
   .main-conteiner .seccion4 .border .contacto {
     margin-top: -16rem;
   }
+  .main-conteiner .seccion4 .border .contacto .logoVaniEncontrame {
+    margin-bottom: -20rem;
+  }
   .main-conteiner .seccion4 .border .contacto .conteiner-contacto {
+    margin-top: 19rem;
     height: 66vh;
     flex-direction: column;
     justify-content: space-evenly;
