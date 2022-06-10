@@ -111,7 +111,6 @@ body {
 }
 
 .main-conteiner .seccion3 .textos {
-  outline: 2px solid red;
   margin-top: 3rem;
 }
 
@@ -291,7 +290,6 @@ body {
     margin-top: 0.5rem;
   }
   .main-conteiner .seccion3 .textos .lista ul li {
-    outline: 5px solid red;
     font-size: 1.1rem;
   }
 }
