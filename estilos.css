@@ -273,13 +273,7 @@ body {
 
 @media screen and (max-width: 1100px) and (min-width: 798px) {
   .main-conteiner {
-    /*  .seccion1{
-            .textos{
-                p{
-                    font-size: 1.2rem;
-                }
-            }
-        } */
+    /* MI propuesta */
   }
   .main-conteiner .seccion2 .textos p {
     font-size: 1.2rem;
@@ -287,13 +281,16 @@ body {
   }
   .main-conteiner .seccion3 .textos p {
     font-size: 1.2rem;
+    margin-top: -7rem;
+  }
+  .main-conteiner .seccion3 .textos .lista p {
     margin-top: -3rem;
   }
   .main-conteiner .seccion3 .textos .lista ul {
     margin-top: 0.5rem;
   }
   .main-conteiner .seccion3 .textos .lista ul li {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 

@@ -272,13 +272,6 @@ h1{
     }
 
     @media screen and (max-width: 1100px) and (min-width: 798px){
-       /*  .seccion1{
-            .textos{
-                p{
-                    font-size: 1.2rem;
-                }
-            }
-        } */
        .seccion2{
         .textos{
             p{  
@@ -290,17 +283,24 @@ h1{
         
         
     }
+
+
+    /* MI propuesta */
     .seccion3{
         .textos{
             p{ 
                 font-size: 1.2rem;
-                margin-top: -3rem;
+                margin-top: -7rem;
             }
             .lista{
+                p{
+                    margin-top: -3rem;
+                }
                 ul{
                     margin-top: 0.5rem;
                     li{
-                        font-size: 1.2rem;
+                        font-size: 1.1rem;
+                    
                     }
                 }
             }
