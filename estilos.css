@@ -290,6 +290,7 @@ body {
     margin-top: 0.5rem;
   }
   .main-conteiner .seccion3 .textos .lista ul li {
+    outline: 5px solid red;
     font-size: 1.1rem;
   }
 }
