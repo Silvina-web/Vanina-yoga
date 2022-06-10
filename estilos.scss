@@ -1,14 +1,11 @@
   $fuente:  'Times New Roman', Times, serif;
   
-  
-  
-  *,*:after,*:before{
+*,*:after,*:before{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
- 
   body{
     font-family: $fuente;
     margin: 0;
@@ -16,18 +13,11 @@
     min-height: 100vh;  
     position: relative; 
     overflow-x: hidden;
-    
-    
-    }  
-
- 
+      }  
 .main-conteiner{
-   
     display: flex;
     flex-wrap: nowrap;
-
-
-    .seccion{
+ .seccion{
         width: 100vw;
         height: 100vh; 
         display: flex;
@@ -131,14 +121,14 @@ h1{
 
         .lista{
            
-            margin-top:3rem;
+            margin-top:2rem;
             p{ 
-                font-size: 1.8vw;
+                font-size: 1.7vw;
             }
             ul{
-                list-style: none;
               
-                margin-top: -1.5rem;
+                list-style: none;
+                 margin-top: -0.5rem; 
                 li{
                     font-family: 'Kurale', serif;
                     color: rgb(0, 0, 0);
@@ -184,16 +174,7 @@ h1{
          .encontrame{
               margin-top: 4rem;
                      }
-       /*   .lista{
-             margin-top: 7rem;
-             ul{
-                 list-style: none;
-             li{
-                 padding: 0.5rem;
-                 
-             }
-         }
-        } */
+      
         .contacto{
             .logoVaniEncontrame{
                 margin-bottom: -8rem;
@@ -204,7 +185,7 @@ h1{
             }
         }
         .conteiner-contacto{
-            outline: 2px solid red;
+           
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -214,16 +195,7 @@ h1{
             margin: auto;
             margin-top: 18rem;
             
-           
-
-           /*  .logoVaniEncontrame{
-                border-radius: 35px;
-                width: 4rem;
-                height: 4rem;
-                
-            } */
-        
-        }
+          }
       
 }
 
@@ -299,6 +271,43 @@ h1{
 
     }
 
+    @media screen and (max-width: 1100px) and (min-width: 798px){
+       /*  .seccion1{
+            .textos{
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        } */
+       .seccion2{
+        .textos{
+            p{  
+               
+                font-size: 1.2rem;
+                line-height: 2rem;
+            }
+        }
+        
+        
+    }
+    .seccion3{
+        .textos{
+            p{ 
+                font-size: 1.2rem;
+                margin-top: -3rem;
+            }
+            .lista{
+                ul{
+                    margin-top: 0.5rem;
+                    li{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 /* En la version celu se hace columna-Estoy ubicado dentro de main conteiner*/
     @media (max-width: 799px){
@@ -340,7 +349,7 @@ h1{
         }
     }
     .textos{
-        margin-top: 5rem;
+        margin-top: 4rem;
         p{
             line-height: 1.8em;
             width: 97vw;
@@ -348,7 +357,7 @@ h1{
         }
         .lista{
             p{
-                font-size: 3.8vw;
+                font-size: 3.2vw;
                
             }
         }
@@ -364,12 +373,13 @@ h1{
             .contacto{
                    margin-top: -8rem;
                    .logoVaniEncontrame{
-                          margin-bottom: -18rem;
+                          margin-bottom: -13rem;
                           border-radius: 15px;
                           width: 5rem;
                           
                    }
                      .conteiner-contacto{
+                        margin-top: 15rem;
                          height: 60vh;
                          flex-direction: column;
                          justify-content: space-evenly;
@@ -465,7 +475,7 @@ h1{
             .contacto{
                    margin-top: -16rem;
                      .conteiner-contacto{
-                         outline: 2px solid red;
+                        
                          height: 66vh;
                          flex-direction: column;
                          justify-content: space-evenly;
@@ -506,6 +516,95 @@ h1{
         }
       
   }
- 
+   @media screen and (max-width: 768px) and (orientation: landscape){
+    .seccion2{
+        h1{ 
+            margin-top: -3rem;
+        }
+        .textos{
+           
+            margin-top: -3rem;
+            p{
+                width: 99vw;
+                line-height: 1.5rem;
+                font-size: 1.1rem;
+            }
+        }
     }
+    .seccion3{
+        h1{
+            margin-top: -5rem;
+        }
+        .textos{
+            
+            margin-top: -2.3rem;
+            p{
+                width: 99vw;
+                line-height: 1.5rem;
+                font-size: 1.1rem;
+            }
+            .lista{
+                p{
+                    font-size: 1.1rem;
+                     margin-top: -2.5rem;
+                }
+                ul{
+                   
+                    margin-top: -1rem;
+                    li{
+                        font-size: 0.8rem;
+                        line-height: 0.6rem;
+                    }}
+            }
+    }
+
+
+
+
+
+
+    }
+
+    .seccion4{
+        .border{
+              h1{ 
+                 margin-top: -1rem;
+                 }
+       
+            .contacto{
+              
+                .logoVaniEncontrame{
+                   
+                    margin-bottom: -10rem;
+                    border-radius: 15px;
+                    width: 5rem;
+                    
+                }
+                .conteiner-contacto{
+                   
+                    flex-direction: row;
+                    width: 90vw;
+                    margin-top: 8rem;
+                                     }
      
+}
+}
+}
+
+   
+.seccion5{
+    height: 100vh;
+    margin-top: 8rem;
+}
+
+
+
+
+}
+
+
+
+
+
+
+}

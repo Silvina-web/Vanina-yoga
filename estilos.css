@@ -126,16 +126,16 @@ body {
 }
 
 .main-conteiner .seccion3 .textos .lista {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .main-conteiner .seccion3 .textos .lista p {
-  font-size: 1.8vw;
+  font-size: 1.7vw;
 }
 
 .main-conteiner .seccion3 .textos .lista ul {
   list-style: none;
-  margin-top: -1.5rem;
+  margin-top: -0.5rem;
 }
 
 .main-conteiner .seccion3 .textos .lista ul li {
@@ -176,16 +176,6 @@ body {
   border: 2px solid #5300c0;
   margin-top: 1.5rem;
   margin-left: 2.8rem;
-  /*   .lista{
-             margin-top: 7rem;
-             ul{
-                 list-style: none;
-             li{
-                 padding: 0.5rem;
-                 
-             }
-         }
-        } */
 }
 
 .main-conteiner .seccion4 .border .encontrame {
@@ -199,7 +189,6 @@ body {
 }
 
 .main-conteiner .seccion4 .border .conteiner-contacto {
-  outline: 2px solid red;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -208,12 +197,6 @@ body {
   align-items: center;
   margin: auto;
   margin-top: 18rem;
-  /*  .logoVaniEncontrame{
-                border-radius: 35px;
-                width: 4rem;
-                height: 4rem;
-                
-            } */
 }
 
 .main-conteiner .seccion5 {
@@ -288,6 +271,32 @@ body {
   font-size: 10px;
 }
 
+@media screen and (max-width: 1100px) and (min-width: 798px) {
+  .main-conteiner {
+    /*  .seccion1{
+            .textos{
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        } */
+  }
+  .main-conteiner .seccion2 .textos p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .main-conteiner .seccion3 .textos p {
+    font-size: 1.2rem;
+    margin-top: -3rem;
+  }
+  .main-conteiner .seccion3 .textos .lista ul {
+    margin-top: 0.5rem;
+  }
+  .main-conteiner .seccion3 .textos .lista ul li {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 799px) {
   .main-conteiner {
     display: flex;
@@ -325,7 +334,7 @@ body {
     margin-top: 5rem;
   }
   .main-conteiner .seccion3 .textos {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
   .main-conteiner .seccion3 .textos p {
     line-height: 1.8em;
@@ -333,7 +342,7 @@ body {
     font-size: 3vw;
   }
   .main-conteiner .seccion3 .textos .lista p {
-    font-size: 3.8vw;
+    font-size: 3.2vw;
   }
   .main-conteiner .seccion4 {
     /* Encontrame */
@@ -349,11 +358,12 @@ body {
     margin-top: -8rem;
   }
   .main-conteiner .seccion4 .border .contacto .logoVaniEncontrame {
-    margin-bottom: -18rem;
+    margin-bottom: -13rem;
     border-radius: 15px;
     width: 5rem;
   }
   .main-conteiner .seccion4 .border .contacto .conteiner-contacto {
+    margin-top: 15rem;
     height: 60vh;
     flex-direction: column;
     justify-content: space-evenly;
@@ -431,7 +441,6 @@ body {
     margin-top: -16rem;
   }
   .main-conteiner .seccion4 .border .contacto .conteiner-contacto {
-    outline: 2px solid red;
     height: 66vh;
     flex-direction: column;
     justify-content: space-evenly;
@@ -458,6 +467,59 @@ body {
   }
   .main-conteiner .seccion5 .vecinas a .texto-vecinas {
     font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .main-conteiner .seccion2 h1 {
+    margin-top: -3rem;
+  }
+  .main-conteiner .seccion2 .textos {
+    margin-top: -3rem;
+  }
+  .main-conteiner .seccion2 .textos p {
+    width: 99vw;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+  }
+  .main-conteiner .seccion3 h1 {
+    margin-top: -5rem;
+  }
+  .main-conteiner .seccion3 .textos {
+    margin-top: -2.3rem;
+  }
+  .main-conteiner .seccion3 .textos p {
+    width: 99vw;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+  }
+  .main-conteiner .seccion3 .textos .lista p {
+    font-size: 1.1rem;
+    margin-top: -2.5rem;
+  }
+  .main-conteiner .seccion3 .textos .lista ul {
+    margin-top: -1rem;
+  }
+  .main-conteiner .seccion3 .textos .lista ul li {
+    font-size: 0.8rem;
+    line-height: 0.6rem;
+  }
+  .main-conteiner .seccion4 .border h1 {
+    margin-top: -1rem;
+  }
+  .main-conteiner .seccion4 .border .contacto .logoVaniEncontrame {
+    margin-bottom: -10rem;
+    border-radius: 15px;
+    width: 5rem;
+  }
+  .main-conteiner .seccion4 .border .contacto .conteiner-contacto {
+    flex-direction: row;
+    width: 90vw;
+    margin-top: 8rem;
+  }
+  .main-conteiner .seccion5 {
+    height: 100vh;
+    margin-top: 8rem;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
