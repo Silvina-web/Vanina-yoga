@@ -271,30 +271,7 @@ h1{
 }
 
     }
-    @media screen and (max-width: 1400px) and (min-width: 100px){
-
-        .seccion3{
-            .textos{
-                p{ 
-                    font-size: 1.2rem;
-                    margin-top: -7rem;
-                }
-                .lista{
-                    p{
-                        margin-top: -3rem;
-                    }
-                    ul{
-                        margin-top: 0.5rem;
-                        li{ outline: 5px solid red;
-                            font-size: 1.1rem;
-                        
-                        }
-                    }
-                }
-            }
-        }
-
-    }
+   
     @media screen and (max-width: 1100px) and (min-width: 798px){
        .seccion2{
         .textos{
